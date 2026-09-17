@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aderitoandre56-rgb.github.io/killua/sitemap.xml
