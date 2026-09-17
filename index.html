@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-MZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GameBox Lite — jogos gratuitos, open source e leves para baixar ou jogar no navegador.">
+  <meta name="keywords" content="jogos leves, jogos grátis, jogos open source, baixar jogos, GameBox Lite">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="canonical" href="https://aderitoandre56-rgb.github.io/killua/">
+  <link rel="stylesheet" href="style.css">
+  <title>GameBox Lite — Jogos Leves & Grátis</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#inicio" aria-label="GameBox Lite">🎮 <span>GameBox</span><b>Lite</b></a>
+      <nav aria-label="Navegação principal">
+        <a href="#jogos">Jogos</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <a class="github" href="https://github.com/aderitoandre56-rgb/killua" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">DOWNLOADS LEVES • FONTES OFICIAIS</p>
+        <h1>Jogos bons para PCs que não podem carregar jogos pesados.</h1>
+        <p class="lead">Uma coleção simples de jogos gratuitos e open source, com links para download nas páginas oficiais dos projetos.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#jogos">Explorar jogos</a>
+          <a class="btn ghost" href="#sobre">Como funciona</a>
+        </div>
+        <div class="stats" aria-label="Resumo da coleção">
+          <div><strong id="gameCount">6</strong><span>jogos</span></div>
+          <div><strong>100%</strong><span>gratuitos / open source</span></div>
+          <div><strong>0</strong><span>links de pirataria</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit o1"></div><div class="orbit o2"></div>
+        <div class="controller">🎮</div>
+        <div class="pixel p1">✦</div><div class="pixel p2">◆</div><div class="pixel p3">●</div>
+      </div>
+    </section>
+
+    <section class="toolbar wrap" id="jogos">
+      <div>
+        <p class="eyebrow">CATÁLOGO</p>
+        <h2>Escolha o seu jogo</h2>
+      </div>
+      <div class="tools">
+        <label class="searchbox">🔎 <input id="search" type="search" placeholder="Procurar jogo..." aria-label="Procurar jogo"></label>
+        <select id="filter" aria-label="Filtrar por categoria">
+          <option value="todos">Todas as categorias</option>
+          <option value="acao">Ação</option>
+          <option value="corrida">Corrida</option>
+          <option value="estrategia">Estratégia</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="sandbox">Sandbox</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div id="grid" class="grid" aria-live="polite"></div>
+      <p id="empty" class="empty" hidden>Nenhum jogo corresponde à pesquisa.</p>
+    </section>
+
+    <section class="category-band" id="categorias">
+      <div class="wrap">
+        <p class="eyebrow">CATEGORIAS</p>
+        <h2>Jogos para diferentes estilos</h2>
+        <div class="category-grid">
+          <button class="cat" data-cat="acao">⚡ <span>Ação</span><small>Combate e arcade</small></button>
+          <button class="cat" data-cat="corrida">🏁 <span>Corrida</span><small>Velocidade e competição</small></button>
+          <button class="cat" data-cat="estrategia">🧠 <span>Estratégia</span><small>Construção e planejamento</small></button>
+          <button class="cat" data-cat="puzzle">🧩 <span>Puzzle</span><small>Desafios de habilidade</small></button>
+          <button class="cat" data-cat="sandbox">🌍 <span>Sandbox</span><small>Explore e crie</small></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about wrap" id="sobre">
+      <div>
+        <p class="eyebrow">SOBRE O SITE</p>
+        <h2>Downloads sem complicação</h2>
+        <p>O GameBox Lite funciona como um catálogo: o botão de download leva diretamente à página oficial do projeto. Assim, o utilizador recebe o arquivo do próprio desenvolvedor e pode conferir a versão e as instruções de instalação.</p>
+      </div>
+      <div class="notice">
+        <strong>🔒 Segurança</strong>
+        <p>Não hospedamos cópias modificadas ou jogos comerciais protegidos por direitos autorais. Os links desta página apontam para fontes oficiais.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© 2026 GameBox Lite</span>
+      <span>Feito para jogos leves e gratuitos.</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
